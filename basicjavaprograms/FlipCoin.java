@@ -10,7 +10,7 @@ public class FlipCoin {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter Number of  how  many Times you want to Flip coin :");
 		int noOfFlips = scanner.nextInt();
-		if (noOfFlips >= 0) // if noOfFlips are positive then the Program will execute
+		if (noOfFlips >= 0) // if noOfFlips are positive then the Program will execute.
 		{
 			while (counter != noOfFlips) {
 				counter++;
@@ -32,5 +32,4 @@ public class FlipCoin {
 			System.out.println("Enter Positive Number");
 		}
 	}
-
 }
